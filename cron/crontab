@@ -1,0 +1,1 @@
+0 5,17 * * * curl -v -w "\nduration (s) %{time_total}\n\n\n" -X GET "http://pillowpublicapi/api/subscriptions/update?IsOnlyActive=true&ExcludeOldTransaction=true&gracePeriod=7.00:00:00" -H "accept: text/plain" -H "Authorization: bearer $MODERATOR_TOKEN"

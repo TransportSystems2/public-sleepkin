@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "PublicApiSleepkin": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Sleepkin"
+      },
+      "applicationUrl": "https://localhost:5099;http://localhost:5098"
+    },
+    "PublicApiRelaxarium": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Relaxarium"
+      },
+      "applicationUrl": "https://localhost:5097;http://localhost:5096"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>Pillow.ApplicationCore</RootNamespace>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.GuardClauses" Version="1.5.0" />
+		<PackageReference Include="Ardalis.Specification" Version="4.1.0" />
+		<PackageReference Include="MediatR" Version="8.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
+		<PackageReference Include="System.Text.Json" Version="4.7.2" />
+	</ItemGroup>
+
+</Project>
